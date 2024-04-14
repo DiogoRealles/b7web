@@ -1,0 +1,17 @@
+
+@use './resets';
+@use './container';
+@use './header';
+@use './hero';
+@use './search';
+@use './burguers';
+@use './footer';
+
+.header,
+.hero,
+.search,
+.burguers
+.footer
+{
+  // display: none;
+}

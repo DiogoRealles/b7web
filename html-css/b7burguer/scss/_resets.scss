@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@100..900&display=swap');
+
+
+::selection{
+  background: $dark;
+  color: $light;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+	background: $dark;
+  color: $light;
+  font-family: $font-body;
+  font-size: 1.6rem;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+button, .button{
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+a{
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.area3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  &__content{
+    padding: 200px 80px;
+    background: url('../../img/bg2.jpg') no-repeat left / cover;
+  }
+  &__img1{
+    background: url('../../img/f5.jpg') no-repeat center / cover;
+  }
+  &__text{
+    margin-bottom: 50px;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,20 @@
+@use '../1-bases/variables';
+
+.banner{
+  background: url('../../img/bg.jpg') no-repeat center / cover;
+  padding: 90px 0;
+  &__subtitle{
+    opacity: .9;
+    font-size: 24px;
+  }
+  &__images{
+    margin-top: 60px;
+  }
+  &__image{
+    width: 148px;
+    height: 148px;
+    border: 6px solid variables.$primary;
+    border-radius: 50%;
+    margin-right: 40px;
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+
+    <!-- CSS PROJECT -->
+    <link rel="stylesheet" href="./css/style.min.css" />
+
+    <!-- JAVASCRIPT PROJECT -->
+    <script type="module" src="./js/script.js" defer></script>
+    <title>B7 Web - JavaScript</title>
+  </head>
+  <body>
+    <section class="">
+      <div class="container">
+        <p id="text-01">JS 09 - .querySelector()</p>
+
+        <ul id="list-01">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <p><button id="btn-01">Click me</button></p>
+
+        <div
+          id="square-01"
+          style="
+            width: 150px;
+            height: 50px;
+            background: tomato;
+            color: #000;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          "
+        >
+          Hover in
+        </div>
+
+        <div
+          id="square-02"
+          style="
+            width: 150px;
+            height: 50px;
+            background: green;
+            color: #000;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          "
+        >
+          Hover out
+        </div>
+
+        <div
+          id="square-03"
+          style="
+            width: 150px;
+            height: 50px;
+            background: yellow;
+            color: #000;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          "
+        >
+          Scroll the page
+        </div>
+
+        <div
+          id="square-03"
+          style="
+            width: 150px;
+            height: 50px;
+            background: purple;
+            color: #000;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          "
+        >
+          Resize the page
+        </div>
+      </div>
+    </section>
+
+    <section class="postArea">
+      <div class="container">
+        <h2>Blog Fake</h2>
+
+        <fieldset>
+          <legend>Inserir novo post</legend>
+
+          <p><input id="title" type="text" placeholder="Title" /></p>
+          <p><input id="text" type="text" placeholder="text" /></p>
+          <p><button id="submit" type="submit">Submit</button></p>
+        </fieldset>
+
+        <div class="posts"></div>
+      </div>
+    </section>
+  </body>
+</html>

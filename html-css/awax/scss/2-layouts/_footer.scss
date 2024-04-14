@@ -1,0 +1,61 @@
+@use '../1-bases/variables';
+
+.footer{
+  background: variables.$dark;
+  color: variables.$secondary;
+  padding: 32px;
+}
+.content{
+  flex: 1 1 250px;
+}
+.footer__social ul{
+  display: flex;
+  list-style: none;
+}
+.footer__social ul li{
+  margin: 0 10px;
+  padding: 5px;
+  &:hover i,
+  &.active i{
+    color: variables.$primary;
+  }
+}
+.footer__social ul li a i{
+  color: variables.$neutral;
+  transition: all .3s ease-in-out;
+  font-size: 24px;
+}
+.footer .desc{
+  line-height: 150%;
+  padding: 0 10px;
+  margin-bottom: 24px;
+}
+.footer form{
+  background: variables.$neutral;
+  padding: 24px;
+}
+.form{
+  &__label{
+    display: inline-block;
+    width: 100%;
+    color: variables.$dark;
+  }
+  &__control{
+    border: none;
+    border-bottom: 1px solid variables.$dark;
+    background: transparent;
+    padding: 8px 12px;
+    outline: none;
+    width: 100%;
+  }
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.footer__copy{
+  margin: 24px;
+  text-align: center;
+  a{
+    color: variables.$secondary;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "06-type-literals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-ts": "tsx --no-warnings --watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.7.2"
+  }
+}

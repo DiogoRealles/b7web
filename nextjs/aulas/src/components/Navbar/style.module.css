@@ -1,0 +1,27 @@
+.container {
+  padding-block: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .item {
+    list-style: none;
+    display: grid;
+    text-align: center;
+    width: 100%;
+    /* max-width: 130px; */
+
+    .link {
+      background: #202020;
+      color: #f1f1f1;
+      padding: 18px;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  .item:hover,
+  .linkActive {
+    filter: brightness(0.8);
+  }
+}

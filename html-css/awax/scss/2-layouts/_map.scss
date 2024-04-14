@@ -1,0 +1,38 @@
+@use '../1-bases/variables';
+
+.section__map{
+  background: url('../../img/complementos/map.png') no-repeat center/cover;
+  padding: 60px 0;
+}
+.section__map-area{
+  width: 100vw;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.section__map-info{
+  width: 50%;
+  padding: 30px;
+  background: variables.$secondary;
+  color: variables.$neutral;
+  box-shadow: 4px 7px 15px rgba(0, 0, 0, .2);
+}
+.section__map-info-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.section__map-info-item i{
+  font-size: 24px;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 24px;
+}
+
+@media(max-width: 600px){
+  .section__map{
+    padding: 0 0 250px 0;
+  }
+  .section__map-info{
+    width: 100%;
+  }
+}

@@ -1,0 +1,49 @@
+@use '../1-bases/variables';
+
+.header{
+  &__line{
+    background: variables.$primary;
+    height: 10px;
+  }
+  &__area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+  &__left img{
+    width: 64px;
+    height: 64px;
+  }
+  &__search input{
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 1px solid variables.$neutral;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+  }
+  &__menu{
+    margin-left: 32px;
+    i{
+      font-size: 32px;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+}
+.form{
+  display: flex;
+  &__button{
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: -40px;
+    cursor: pointer;
+  }
+}

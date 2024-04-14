@@ -1,0 +1,151 @@
+@use './variables' as *;
+
+.hero{
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .sideleft{
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+
+    h1{
+      text-align: center;
+      font-family: $font-title;
+      color: $light;
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 125%;
+      width: 100%;
+      max-width: 26.5rem;
+      margin-inline: auto;
+    }
+    
+    p{
+      text-align: center;
+      font-family: $font-body;
+      color: $light;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 150%;
+      width: 100%;
+      max-width: 48rem;
+      margin-inline: auto;
+    }
+
+    .button{
+      background: $primary-100;
+      color: $light;
+      font-size: 1.8rem;
+      text-align: center;
+      font-family: $font-body;
+      width: 100%;
+      display: inline-block;
+      font-weight: 500;
+      line-height: 150%;
+      margin-inline: auto;
+      padding-block: .8rem;
+      border-radius: .4rem;
+      transition: all .3s ease-in-out;
+
+      &:is(:hover, :focus){
+        filter: brightness(.8);
+      }
+    }
+  }
+
+  .sideright{
+    text-align: center;
+
+    img{
+      width: auto;
+      height: 30rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-block: 4rem;
+
+    .sideleft{
+      h1{
+        font-size: 5.2rem;
+        max-width: 43rem;
+      }
+
+      p{
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 820px) {
+    .container{
+      flex-direction: row;
+    }
+
+    .sideleft{
+      padding-bottom: 100px;
+      
+      h1{
+        text-align: left;
+        margin-inline: initial;
+      }
+
+      p{
+        text-align: left;
+        margin-inline: initial;
+      }
+
+      .button{
+        width: fit-content;
+        padding-inline: 6rem;
+        margin-inline: initial;
+      }
+    }
+
+    .sideright{
+      img{
+        width: auto;
+        height: 34.1rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 950px) {
+    .sideleft{
+      flex: 1;
+
+      h1{
+        font-size: 6.1rem;
+        max-width: 54.7rem;
+      }
+    }
+
+    .sideright{
+      img{
+        height: 39.7rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .sideleft{
+      flex: 1;
+
+      h1{
+        font-size: 6.7rem;
+        max-width: 60.1rem;
+      }
+    }
+
+    .sideright{
+      img{
+        height: 50.9rem;
+      }
+    }
+  }
+}

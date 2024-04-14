@@ -1,0 +1,15 @@
+{{>partials/header}}
+
+  <form method="POST">
+    <h1>Your Age</h1>
+
+    <input class='' type="number" name='year' id='year' placeholder='Enter your year birth' />
+    <input class='' type="submit" value="Register" />
+  </form>
+
+  {{#showAge}}
+    <p>Your age: {{age}}</p>
+  {{/showAge}}
+
+
+{{>partials/footer}}

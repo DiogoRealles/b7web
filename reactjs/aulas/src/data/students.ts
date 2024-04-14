@@ -1,0 +1,58 @@
+import { Student } from '@/types/Student';
+
+export const students: Student[] = [
+  {
+    id: 1,
+    active: true,
+    name: 'Student 01',
+    email: 'studend01@school.com',
+    avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
+    grade1: 7.3,
+    grade2: 8.1,
+  },
+  {
+    id: 2,
+    active: true,
+    name: 'Student 02',
+    email: 'studend02@school.com',
+    avatar: 'https://randomuser.me/api/portraits/women/2.jpg',
+    grade1: 2.9,
+    grade2: 8.7,
+  },
+  {
+    id: 3,
+    active: false,
+    name: 'Student 03',
+    email: 'studend03@school.com',
+    avatar: 'https://randomuser.me/api/portraits/men/3.jpg',
+    grade1: 8.3,
+    grade2: 6.4,
+  },
+  {
+    id: 4,
+    active: true,
+    name: 'Student 04',
+    email: 'studend04@school.com',
+    avatar: 'https://randomuser.me/api/portraits/women/4.jpg',
+    grade1: 9.0,
+    grade2: 8.1,
+  },
+  {
+    id: 5,
+    active: true,
+    name: 'Student 05',
+    email: 'studend05@school.com',
+    avatar: 'https://randomuser.me/api/portraits/men/5.jpg',
+    grade1: 10.0,
+    grade2: 9.7,
+  },
+  {
+    id: 6,
+    active: false,
+    name: 'Student 06',
+    email: 'studend06@school.com',
+    avatar: 'https://randomuser.me/api/portraits/women/6.jpg',
+    grade1: 5.5,
+    grade2: 6.2,
+  },
+];

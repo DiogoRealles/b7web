@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.true {
+  background: green;
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 6px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+}
+
+.false {
+  background: red;
+  color: #000;
+  padding: 8px;
+  border-radius: 6px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+}

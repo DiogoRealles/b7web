@@ -1,0 +1,16 @@
+{
+  "name": "01-export-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc -w",
+    "watch-js": "node --watch ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.2"
+  }
+}

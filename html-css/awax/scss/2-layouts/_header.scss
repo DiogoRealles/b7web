@@ -1,0 +1,96 @@
+@use '../1-bases/variables';
+
+header{
+  height: 100px;
+  background: #000;
+  color: #fff;
+}
+.header{
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 80px;
+  // height: 80px;
+  &__img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    background: variables.$primary;
+  }
+}
+.menu{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.mennu ul,
+.menu li{
+  list-style: none;
+}
+.menu ul{
+  display: flex;
+}
+.menu li a{
+  color: variables.$neutral;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  transition: all .1s ease-in-out;
+  height: 100px;
+  border: 5px solid #000;
+  &:hover{
+    border-bottom: 5px solid variables.$primary;
+    color: variables.$secondary;
+  }
+}
+.menu .active a{
+  border-bottom: 5px solid variables.$primary;
+  color: variables.$secondary;
+}
+.menu-opener{
+  display: none;
+}
+
+@media(max-width: 1110px){
+  .menu-opener{
+    margin-right: 32px;
+    display: block;
+    font-size: 32px;
+    cursor: pointer;
+    color: variables.$primary;
+  }
+  nav{
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, .8);
+    width: 70vw;
+    height: calc(100vh - 100px);
+    top: 79px;
+    right: -100%;
+    transition: all .3s ease-in-out;
+  }
+  .logo{
+    margin-left: 32px;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu li a{
+    font-weight: 700;
+    height: 80px;
+    font-size: 18px;
+    margin-left: 50px;
+    border: 0;
+  }
+  .menu li.active a,
+  .menu li:hover a{
+    border: 0;
+    color: variables.$primary;
+  }
+}

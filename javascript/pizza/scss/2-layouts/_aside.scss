@@ -1,0 +1,11 @@
+
+aside {
+  background-color:#9ccbe6;
+  width:0vw;
+  font-family:'Hepta Slab', Helvetica, Arial;
+  transition:all ease .2s;
+  overflow-x:hidden;
+}
+aside.show {
+  width:30vw;
+}

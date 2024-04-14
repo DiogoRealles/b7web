@@ -1,0 +1,15 @@
+{
+  "name": "aulas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styles": "npx tailwindcss -i ./src/assets/style.css -o ./src/assets/css/style.min.css --watch"
+  },
+  "keywords": [],
+  "author": "DiogoRealles <diogorealles@hotmail.com> (https://diogorealles.github.io/portfolio)",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

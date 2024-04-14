@@ -1,0 +1,46 @@
+@use './variables' as *;
+
+.footer{
+  background: $dark-100;
+
+  .container{
+    padding-block: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo a{
+    font-family: $font-title;
+    font-size: 3.2rem;
+    color: $light;
+    text-decoration: none;
+  
+    span{
+      color: $primary-100;
+    }
+  }
+
+  p{
+    text-align: center;
+    font-family: $font-body;
+    line-height: 125%;
+    font-weight: 400;
+    color: $gray;
+
+    a{
+      &:hover{
+        text-decoration: underline;
+        text-underline-offset: 6px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .container{
+      flex-direction: row;
+    }
+  }
+}
