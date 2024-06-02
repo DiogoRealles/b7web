@@ -55,7 +55,7 @@
   É essencial em projetos com DBs. <br />
   Basicamente é:
   - Pegar os dados do DB. <br />
-  - Organizat as informações. <br />
+  - Organizar as informações. <br />
   - Enviar os dados para o template via engine. <br />
 </details>
 <br />
