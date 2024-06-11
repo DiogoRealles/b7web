@@ -54,7 +54,7 @@ export default function Home() {
       {/* <Component09 /> */}
       {/* <Component10 /> */}
       {/* <Component11 /> */}
-      {/* <Component12 /> */}
+      <Component12 />
       {/* <Component13 /> */}
       {/* <Component14 /> */}
       {/* <Component15 /> */}
@@ -71,12 +71,12 @@ export default function Home() {
       {/* <Component26 /> */}
       {/* <Component27 /> */}
       {/* <Component28 /> */}
-      <Component29 />
-      {/* <Component30 />*/}
-      {/* <Component31 />*/}
-      {/* <Component32 />*/}
-      {/* <Component33 />*/}
-      {/* <Component34 />*/}
+      {/* <Component29 /> */}
+      {/* <Component30 /> */}
+      {/* <Component31 /> */}
+      {/* <Component32 /> */}
+      {/* <Component33 /> */}
+      {/* <Component34 /> */}
       {/* <Component35 />*/}
       {/* <Component36 />*/}
       {/* <Component37 />*/}

@@ -2,14 +2,13 @@
 
 # ReactJS
 
-├───public
-│ ├───favicons
-│ ├───files
-│ ├───fonts
-│ │ ├───Nexa
-│ │ └───SFProDisplay
-│ └───videos
-└───src
+│src
+├───app
+│ ├───layout
+│ ├───page
+│ └───contexts
+│ │ ├───contextUser.tsx
+└───components
 
 <details>
   <summary>O que é ReactJS</summary>
@@ -106,9 +105,6 @@
   </pre>
 </details>
 <br>
-
-/\*
-[![Cover](cover.png)](https://diogorealles.github.io/)
 
 # ReactJS
 
@@ -261,6 +257,21 @@ Provider do **TanStack Query** deve estar no componente de maior hierarquia da p
 # TanStack Query / React Query (DevTools)
 
 É uma ferramenta auxiliar que mostra mais dados. <br />
-`<ReactQueryDevtools />`: PÉ um componente que pode ir no root das páginas ou apos o children de providers. <br />
+`<ReactQueryDevtools />`: É um componente que pode ir no root das páginas ou após o children de providers. <br />
 
-\*/
+# React Rook Form
+
+É um gerenciado de formulários.<br>
+Possui diversos hook para lidar com states e valores dos campos de formulário.<br>
+Permite aplica validação para cada campo do formulário.<br>
+<b>handleSubmit:</b> Faz validação dos dados.<br>
+<b>register:</b> Registra / "associa" um campo nomeado com um tipo.<br>
+<b>control:</b> Associa um campo com o useForm do componente.<br>
+<b>SubmitHandler:</b> Lida com os valores dos inputs ao serem validados pelo handleSubmit.<br>
+<b>formState:</b> Possui bjetos como: {errors}, indicando qual campo precisa de atenção do usuário.<br>
+<b>useController:</b> Ajuda a lidar com os valores dos inputs componentizados recebendo as props do componente.<br>
+
+# ZOD
+
+É uma lib / ferramenta de schema validation, ou seja, agrupa em um schema a validação dos campos.<br>
+Valida os tipos e padrões que um campo pode ter: campo deve ser string e ter n# tal de characteres.<br>

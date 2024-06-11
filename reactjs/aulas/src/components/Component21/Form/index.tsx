@@ -67,7 +67,7 @@ const Index = () => {
         className="py-1 px-3 rounded-sm transition-all ease-linear font-semibold text-lg text-white border border-white bg-white/20 dark:text-orange-400 dark:border-orange-400"
         type="submit"
       >
-        Register
+        Login
       </button>
 
       <div className="mt-4">

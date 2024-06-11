@@ -55,7 +55,7 @@
   É essencial em projetos com DBs. <br />
   Basicamente é:
   - Pegar os dados do DB. <br />
-  - Organizar as informações. <br />
+  - Organizat as informações. <br />
   - Enviar os dados para o template via engine. <br />
 </details>
 <br />
@@ -77,7 +77,7 @@
 <br />
 
 <details>
-  <summary>Variáveis de Ambiente</summary>
+  <summary>Variáveis de aAmbiente</summary>
   São variáveis que devem armazenar valores sensíveis (keys DBs, tokkens, ip DBs, etc.). <br />
   *Não deve ir para o github. <br />
   <b>.env-local:</b> Utilizado em ambiente local. <br />

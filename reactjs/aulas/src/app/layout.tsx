@@ -1,17 +1,18 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
+import { Inter as FontSans } from 'next/font/google';
 
-const inter = Inter({
+import { cn } from '@/lib/utils';
+
+const fontSans = FontSans({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  style: 'normal',
+  variable: '--font-sans',
 });
 
 export const metadata: Metadata = {
   title: {
-    template: 'B7Web - ReactJS',
-    default: '%s - ReactJS',
+    template: 's% - ReactJS',
+    default: 'B7Web - ReactJS',
   },
   description: 'B7Web - ReactJS',
 };
@@ -22,8 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body className={`${inter.className} bg-black text-white`}>
+    <html lang="pt-br" suppressHydrationWarning>
+      <body
+        className={cn(
+          'bg-black text-white font-sans antialiased',
+          fontSans.variable
+        )}
+      >
         {children}
       </body>
     </html>
