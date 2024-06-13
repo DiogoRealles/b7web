@@ -77,7 +77,7 @@
 <br />
 
 <details>
-  <summary>Variáveis de aAmbiente</summary>
+  <summary>Variáveis de Ambiente</summary>
   São variáveis que devem armazenar valores sensíveis (keys DBs, tokkens, ip DBs, etc.). <br />
   *Não deve ir para o github. <br />
   <b>.env-local:</b> Utilizado em ambiente local. <br />
