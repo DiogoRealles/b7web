@@ -1,0 +1,58 @@
+@use '../1-bases//variables';
+
+.banner{
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../../img//complementos//bg.jpg') no-repeat center bottom / cover;
+}
+.banner .sliders{
+  width: 1000vw;
+  height: 100%;
+}
+.banner .slide{
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background: rgba(0, 0, 0, .8);
+}
+.banner .slidearea{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: variables.$secondary;
+}
+.banner .slidearea h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  text-align: center;
+}
+.banner .slidearea h1 span{
+  color: variables.$primary;
+}
+.banner h2{
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.banner .sliders-pointers{
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .pointer{
+  width: 15px;
+  height: 15px;
+  border: 2px solid variables.$primary;
+  border-radius: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.banner .pointer.active{
+  background: variables.$primary;
+}

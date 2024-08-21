@@ -1,0 +1,17 @@
+{
+  "name": "01-ts_intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "npx ts-node ./index.ts",
+    "watch-js": "node --watch --no-warnings ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

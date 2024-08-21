@@ -1,0 +1,75 @@
+@use './variables';
+
+body{
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+  color: variables.$dark;
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.button{
+  display: inline-block;
+  background: variables.$primary;
+  color: variables.$secondary;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 32px;
+  margin-top: 32px;
+  border-radius: 24px;
+}
+
+// mixin default
+.default{
+  padding: 50px 0;
+}
+.default .section__title,
+.default .section__desc{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.default .section__title{
+  font-size: 24px;
+}
+.default .section__desc{
+  font-size: 16px;
+  color: variables.$neutral;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.default .section__body{
+  max-width: 1140px;
+  margin: 0 auto;
+  min-height: 100px;
+}
+.default.light{
+  background: variables.$bg-light;
+}
+.default.light .section__title,
+.default.light .section__body{
+  color: variables.$dark;
+}
+// dark
+.default.dark{
+  background: variables.$dark;
+}
+.default.dark .section__title,
+.default.dark .section__body{
+  color: variables.$secondary;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+}

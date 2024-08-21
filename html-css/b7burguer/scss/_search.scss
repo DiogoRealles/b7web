@@ -1,0 +1,106 @@
+@use './variables' as *;
+
+.search{
+  margin-top: -70px;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  background: $dark-100;
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    header{
+      h2{
+        font-family: $font-body;
+        color: $light;
+        font-weight: 500;
+        line-height: 150%;
+        text-align: center;
+        width: 100%;
+        max-width: 30rem;
+        margin-inline: auto;
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  .sideleft{
+    width: 100%;
+    max-width: 98rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+
+    .form{
+      width: 100%;
+      max-width: 35rem;
+      background: $dark-200;
+      display: flex;
+      border-radius: .4rem;
+
+      .button{
+        padding: 1.6rem 1rem;
+        background: transparent;
+        border: none;
+        outline: none;
+
+      }
+      
+      &-control{
+        padding: 1.6rem 1rem;
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: $light;
+
+        &::placeholder{
+          color: $gray;
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    select{
+      width: 100%;
+      max-width: 35rem;
+      background: $dark-200;
+      border-radius: .4rem;
+      padding: 1.6rem 1rem;
+      width: 100%;
+      color: $light;
+      border: none;
+      outline: none;
+      border-right: 2rem solid transparent;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: -110px;
+
+    .container{
+      header{
+        h2{
+          text-align: left;
+          margin-inline: initial;
+          font-size: 2.8rem;
+        }
+      }
+    }
+
+    .sideleft{
+      display: flex;
+      flex-direction: row;
+
+      .form,
+      select{
+        flex: 1;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,87 @@
+@use './variables' as *;
+
+.header{
+  padding-block: 3.2rem;
+
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .logo a{
+    font-family: $font-title;
+    font-size: 3.2rem;
+    color: $light;
+    text-decoration: none;
+  
+    span{
+      color: $primary-100;
+    }
+  }
+
+  nav{
+    display: none;
+    flex: 1;
+    align-items: center;
+    
+    .menu{
+      flex: 1;
+      display: flex;
+      gap: 1.8rem;
+  
+        li{
+          a{
+            padding: .2rem .8rem;
+
+            &:is(:hover, :focus){
+              color: $primary-100;
+            }
+          }
+      }
+    }
+
+    .button{
+      display: block;
+      padding: 1.4rem 3.2rem;
+      color: $light;
+      border: 1px solid currentColor;
+      border-radius: .4rem;
+      text-decoration: none;
+      transition: all .3s ease-in-out;
+
+      &:is(:hover, :focus){
+        color: $primary-100;
+        border: 1px solid currentColor;
+      }
+    }
+  }
+
+  .btn-menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 3.2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:is(:hover, :focus){
+      color: $primary-100;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .logo a{
+      font-size: 3.6rem;
+    }
+
+    nav{
+      display: flex;
+    }
+
+    .btn-menu{
+      display: none;
+    }
+  }
+}

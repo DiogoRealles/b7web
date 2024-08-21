@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/style.min.css" />
+  <script src="../assets/js/script.js"></script>
+  <title>B7Web - TailwindCSS 04</title>
+</head>
+<body class="bg-black text-white py-10">
+  <section class="section">
+    <div class="sm:container mx-auto">
+      <header>
+        <h2 class="text-red-400 text-xl mb-4">Card Responsivo</h2>
+      </header>
+
+      <div class="rounded-xl overflow-hidden p-6 bg-slate-800 md:flex md:p-0">
+        <img class="w-24 h-24 bg-cover bg-center rounded-full mx-auto md:w-48 md:h-auto md:rounded-none bg-[url(https://www.carteltec.com/wp-content/uploads/2023/03/1678896547_753_Naruto-esta-IA-imagina-como-son-estos-16-personajes-en.jpg)]" />
+        <div class="grow pt-6 text-center md:p-8 md:text-left">
+          <p class="text-lg text-white">"Não é o rosto que faz de alguém um monstro, são as escolhas que elas fazem para as suas vidas."</p>
+          <p class="mt-3 font-bold text-yellow-400">Naruto Uzumaki</p>
+          <p class="text-slate-500">Hokage, Aldeia da Folha</p>
+        </div>
+      </div>
+
+      <pre class="bg-gray-800 overflow-auto rounded-md my-5">
+        <code>
+          &lt;div class="rounded-xl overflow-hidden p-6 bg-slate-800 md:flex md:p-0">
+            &lt;img class="w-24 h-24 bg-cover bg-center rounded-full mx-auto md:w-48 md:h-auto md:rounded-none bg-[url(https://www.carteltec.com/wp-content/uploads/2023/03/1678896547_753_Naruto-esta-IA-imagina-como-son-estos-16-personajes-en.jpg)]" />
+            &lt;div class="grow pt-6 text-center md:p-8 md:text-left">
+              &lt;p class="text-lg text-white">"Não é o rosto que faz de alguém um monstro, são as escolhas que elas fazem para as suas vidas."&lt;/p>
+              &lt;p class="mt-3 font-bold text-yellow-400">Naruto Uzumaki&lt;/p>
+              &lt;p class="text-slate-500">Hokage, Aldeia da Folha&lt;/p>
+            &lt;/div>
+          &lt;/div>
+        </code>
+      </pre>
+    </div>
+    <hr>
+  </section>
+
+  <div class="sm:container mx-auto my-5">
+    <div class="flex justify-between">
+      <a href="03.html" class="rounded p-5 hover:bg-slate-700 transition-all duration-300">Prev</a>
+      <a href="05.html" class="rounded p-5 hover:bg-slate-700 transition-all duration-300">Next</a>
+    </div>
+  </div>
+</body>
+</html>

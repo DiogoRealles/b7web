@@ -1,0 +1,21 @@
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: 'Roboto', sans-serif;
+
+  .header {
+    background: #828282;
+  }
+
+  .main {
+    background: #565656;
+    display: grid;
+    place-items: center;
+  }
+
+  .footer {
+    background: #828282;
+    text-align: center;
+  }
+}

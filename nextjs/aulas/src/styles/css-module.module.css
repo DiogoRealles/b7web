@@ -1,0 +1,49 @@
+.card {
+  width: 100%;
+  max-width: 280px;
+  background: #f6f6f6;
+  border-radius: 8px;
+
+  .header {
+    .img {
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+      object-fit: cover;
+    }
+  }
+
+  .body {
+    padding: 8px;
+
+    .title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      line-height: 120%;
+      margin-bottom: 16px;
+    }
+    .text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      line-height: 150%;
+      margin-bottom: 8px;
+    }
+
+    .list {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      gap: 8px;
+      list-style: none;
+      padding: 0;
+
+      .item {
+        font-family: 'Roboto', sans-serif;
+        padding: 4px 8px;
+        border-radius: 6px;
+        background: #6ab86a;
+        color: rgb(3, 47, 3);
+      }
+    }
+  }
+}

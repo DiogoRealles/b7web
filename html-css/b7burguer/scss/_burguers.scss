@@ -1,0 +1,126 @@
+@use "./variables" as *;
+
+.burguers {
+  padding-block: 2.4rem;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 2.4rem;
+  }
+
+  .card {
+    width: 100%;
+    border-radius: 0.6rem;
+    background: $dark-200;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+
+    .warning {
+      background: $primary-100;
+      color: $light;
+      font-size: 1.4rem;
+      text-align: center;
+      font-family: $font-body;
+      width: fit-content;
+      padding: 0.8rem 1.8rem;
+      font-weight: 400;
+      border-radius: 0.4rem;
+      position: absolute;
+      top: 2.4rem;
+      left: 2.4rem;
+      z-index: 1;
+    }
+
+    .photo {
+      padding-top: 1.4rem;
+      height: 20rem;
+
+      img {
+        transition: all 0.3s ease-in-out;
+        object-fit: contain;
+      }
+    }
+
+    .body {
+      height: 100%;
+      background: $dark-100;
+      padding: 7.2rem 2.4rem 2.4rem 2.4rem;
+      margin-top: -6rem;
+
+      span {
+        font-size: 1.6rem;
+        color: $light;
+        font-family: $font-body;
+        line-height: 125%;
+        font-weight: 500;
+        margin-bottom: 0.8rem;
+        display: inline-block;
+      }
+
+      h4 {
+        font-size: 3.2rem;
+        color: $light;
+        font-family: $font-title;
+        line-height: 125%;
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+      }
+
+      p {
+        font-size: 3.2rem;
+        color: $primary-100;
+        font-family: $font-body;
+        line-height: 125%;
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+      }
+
+      a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: $light;
+
+        .h-link {
+          position: absolute !important;
+          clip: rect(1px 1px 1px 1px);
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 0 !important;
+          border: 0 !important;
+          height: 1px !important;
+          width: 1px !important;
+          overflow: hidden;
+        }
+      }
+    }
+
+    &:hover {
+      opacity: 1;
+
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  @media screen and (min-width: 624px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 949px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

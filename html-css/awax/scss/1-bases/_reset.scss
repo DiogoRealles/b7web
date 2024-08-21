@@ -1,0 +1,12 @@
+@use './variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$type-1;
+}
+::selection{
+  color: variables.$primary;
+  background: variables.$secondary;
+}

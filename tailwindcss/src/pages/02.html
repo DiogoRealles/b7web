@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/style.min.css" />
+  <script src="../assets/js/script.js"></script>
+  <title>B7Web - TailwindCSS 02</title>
+</head>
+
+<body class="bg-black text-white py-10">
+  <section class="section">
+    <div class="sm:container mx-auto">
+      <header>
+        <h2 class="text-red-400 text-xl mb-4">Formulário de Login</h2>
+      </header>
+
+      <form class="mt-5" action="#" method="POST">
+        <h1 class="text-3xl font-bold text-center">Sistema de Login</h1>
+
+        <div class="my-6">
+          <label class="block text-lg mb-2 cursor-pointer" for="email">Email</label>
+          <input
+            class="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 focus:outline outline-1 outline-yellow-400"
+            type="email" name="email" id="email" placeholder="Digite seu email" />
+        </div>
+
+        <div class="my-6">
+          <label class="block text-lg mb-2 cursor-pointer" for="password">Password</label>
+          <input
+            class="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 focus:outline outline-1 outline-yellow-400"
+            type="password" name="password" id="password" placeholder="Digite sua senha" />
+        </div>
+
+        <div class="my-6">
+          <button
+            class="w-full p-2 rounded-md text-lg font-bold border-none text-white bg-yellow-500 hover:bg-yellow-600 transition-all duration-500"
+            type="submit">Entrar</button>
+        </div>
+
+        <div class="text-center text-gray-400">
+          <p>Não é membro? <a class="text-yellow-500 font-bold" href="#">Faça seu cadastro agora!</a></p>
+        </div>
+      </form>
+
+      <pre class="bg-gray-800 overflow-auto rounded-md my-5">
+        <code>
+          &lt;form class="mt-5" action="#" method="POST">
+            &lt;h1 class="text-3xl font-bold text-center">Sistema de Login&lt;/h1>
+
+            &lt;div class="my-6">
+              &lt;label class="block text-lg mb-2 cursor-pointer" for="email">Email&lt;/label>
+              &lt;input class="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 focus:outline outline-1 outline-yellow-400" type="email" name="email" id="email" placeholder="Digite seu email" />
+            &lt;/div>
+
+            &lt;div class="my-6">
+              &lt;label class="block text-lg mb-2 cursor-pointer" for="password">Password&lt;/label>
+              &lt;input class="w-full p-2 rounded-md text-lg bg-gray-800 border border-gray-600 focus:outline outline-1 outline-yellow-400" type="password" name="password" id="password" placeholder="Digite sua senha" />
+            &lt;/div>
+
+            &lt;div class="my-6">
+              &lt;button class="w-full p-2 rounded-md text-lg font-bold border-none text-white bg-yellow-500 hover:bg-yellow-600 transition-all duration-500" type="submit">Entrar&lt;/button>
+            &lt;/div>
+
+            &lt;div class="text-center text-gray-400">
+              &lt;p>Não é membro? &lt;a class="text-yellow-500 font-bold" href="#">Faça seu cadastro agora!&lt;/a>&lt;/p>
+            &lt;/div>
+          &lt;/form>
+        </code>
+      </pre>
+    </div>
+    <hr>
+  </section>
+
+  <div class="sm:container mx-auto my-5">
+    <div class="flex justify-between">
+      <a href="01.html" class="rounded p-5 hover:bg-slate-700 transition-all duration-300">Prev</a>
+      <a href="03.html" class="rounded p-5 hover:bg-slate-700 transition-all duration-300">Next</a>
+    </div>
+  </div>
+</body>
+
+</html>

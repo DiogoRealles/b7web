@@ -1,0 +1,17 @@
+@use '../1-bases/variables';
+
+.area4{
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  background: variables.$bg-neutral;
+  &__content{
+    padding: 150px 80px;
+  }
+  &__img1{
+    background: url('../../img/bg3.jpg') no-repeat left / cover;
+  }
+  &__text{
+    margin-bottom: 50px;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "01-http_intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "file": "tsx --watch --no-warnings --env-file=.env ./src/file.ts"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.15.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
