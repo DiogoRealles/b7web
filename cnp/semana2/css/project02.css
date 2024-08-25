@@ -41,8 +41,7 @@ h2 {
 header {
   background: var(--primary-color);
   height: var(--header-height);
-  /* display: flex; */
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -97,7 +96,6 @@ main {
   margin-inline: auto;
 
   .hero {
-    display: none;
     background: linear-gradient(
       45deg,
       var(--primary-color),
@@ -126,7 +124,6 @@ main {
   }
 
   .about {
-    display: none;
     border-bottom: 1px solid var(--main-text-light);
 
     img {
@@ -143,8 +140,6 @@ main {
   }
 
   .services {
-    display: none;
-
     .service-area {
       display: flex;
       flex-direction: column;
@@ -181,8 +176,6 @@ main {
   }
 
   .portfolio {
-    display: none;
-
     .grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -219,10 +212,13 @@ main {
 
       .group {
         margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
 
         label {
           text-align: left;
-          border: 3px solid red;
+          margin-bottom: 8px;
         }
 
         input,
