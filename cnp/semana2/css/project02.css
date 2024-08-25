@@ -253,3 +253,20 @@ main {
     }
   }
 }
+
+footer {
+  background: var(--primary-color);
+  color: var(--light-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+
+  @media screen and (width > 700px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
