@@ -23,6 +23,12 @@
 <details>
   <summary><h1>Semana 1: Fundamentos +4hr</h1></summary>
   
-  **O que é HTML5:** É uma linguagem de marcação, ou seja, para estruturar as páginas web. Semelhante os blocos que estruturam e constroem as residências. <br />
+  **O que é HTML5:** É uma linguagem de marcação, ou seja, para estruturar as páginas web. <br />Semelhante os blocos que estruturam e constroem as residências. <br />
   HTML5 possui blocos/tags para vários usos como: paragrafos: "p", imagens: "img", video: "video", e muito mais. <br />
+  
+  **O que é CSS3:** É uma linguagem de estilização, ou seja, ajustar tamanho, cores e dar beleza as páginas web. <br />
+  Semelhante a pintura de uma residência. <br />
+  CSS3 permite estilizar textos, imagens, alinhar e posicionar elementos, animações e transformações e muito mais. <br />
+  **Portfólio:**
+  Projeto utilizando em prática os conceitos aprendidos na 1 semana. <br />
 </details><br /> <br />
