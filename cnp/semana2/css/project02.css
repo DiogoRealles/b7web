@@ -1,0 +1,255 @@
+:root {
+  --main-bg-color: #f0f0f0;
+  --main-bg-light: #fff;
+  --main-text-color: #333;
+  --main-text-light: #ccc;
+  --primary-color: #007bff;
+  --secondary-color: #003670;
+  --light-color: var(--main-bg-light);
+  --font-family: 'Arial', sans-serif;
+  --header-height: 60px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.about,
+.services,
+.portfolio,
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+header {
+  background: var(--primary-color);
+  height: var(--header-height);
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+  nav ul {
+    display: flex;
+    list-style: none;
+
+    a {
+      color: var(--light-color);
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: block;
+
+      &:hover {
+        background: var(--secondary-color);
+      }
+
+      &.nav-hide {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (width > 700px) {
+    nav ul {
+      a {
+        &.nav-hide {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+main {
+  padding: 20px;
+  width: min(90%, 1200px);
+  margin-inline: auto;
+
+  .hero {
+    display: none;
+    background: linear-gradient(
+      45deg,
+      var(--primary-color),
+      var(--secondary-color)
+    );
+    color: var(--light-color);
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      display: block;
+      background: var(--secondary-color);
+      color: var(--light-color);
+      text-decoration: none;
+      margin: 20px auto 0 auto;
+      max-width: 400px;
+      padding: 15px;
+      border-radius: 8px;
+      animation: bounce 2s infinite alternate;
+    }
+  }
+
+  .about {
+    display: none;
+    border-bottom: 1px solid var(--main-text-light);
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 10px auto;
+      max-width: 600px;
+    }
+  }
+
+  .services {
+    display: none;
+
+    .service-area {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .service-item {
+      flex: 1;
+      background: var(--main-bg-light);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 20px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+
+      h3 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .service-icon {
+      font-size: 5rem;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    @media screen and (width > 700px) {
+      .service-area {
+        flex-direction: row;
+      }
+    }
+  }
+
+  .portfolio {
+    display: none;
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      .grid-item {
+        img {
+          width: 100%;
+          border-radius: 8px;
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+
+    @media screen and (width > 700px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  .contact {
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+      margin-inline: auto;
+
+      .group {
+        margin-bottom: 8px;
+
+        label {
+          text-align: left;
+          border: 3px solid red;
+        }
+
+        input,
+        textarea {
+          padding: 10px;
+          width: 100%;
+          border: 1px solid var(--main-text-light);
+          color: var(--main-text-color);
+          border-radius: 8px;
+        }
+
+        button {
+          background: var(--secondary-color);
+          color: var(--light-color);
+          border: 0;
+          padding: 10px;
+          border-radius: 8px;
+          cursor: pointer;
+          width: 100%;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            background: var(--main-text-color);
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}
