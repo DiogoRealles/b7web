@@ -38,10 +38,19 @@
   
   **Ganhar dinheiro como iniciante:** Uma das maneiras para ganhar dinheiro iniciando na programação é fazendo sites estáticos para empresas ou prestadores de serviço. Outra maneira é ser trainee/Jr. em uma agência de marketing. <br />
   
-  **100 pra 1:** Sendo iniciante e freelancer a taxa de conversão de clientes é de 100 pra 1, ou seja, falar com 100 ou mais possíveis clientes e ser aceito por 1 cliente. <br />
-  CSS3 possui features para trabalhar com backgrounds (color, image e gradients), alterar tipos de fontes, transições e animações e muito mais. <br />
-  
   Uma das feature mais importantes do CSS3 moderno é CSS flexbox e CSS grid, a junção destas duas features mais criatividade é possível criar layouts incríveis e únicos. <br />
   **Agência XYZ:**
   Projeto utilizando em prática os conceitos aprendidos na 2 semana. <br />
+</details><br /> <br />
+
+<details>
+  <summary><h1>Semana 3: HTML5 + CSS3 +5hr</h1></summary>
+  
+  **100 pra 1:** Sendo iniciante e freelancer a taxa de conversão de clientes é de 100 pra 1, ou seja, falar com 100 ou mais possíveis clientes e ser aceito por 1 cliente. <br />
+  CSS3 possui features para trabalhar com backgrounds (color, image e gradients), alterar tipos de fontes, transições e animações e muito mais. <br />
+  CSS3 moderno permite criar layouts com design com muita interatividade e que brilham aos olhos. <br />
+  Uma das premissas do desenvolvimento é trazer boa experiência aos usuários. <br />
+  
+  **Modal, Págination (estrutura e estilo), Menu Dropdown, Loading, Campo de busca estilizado:**
+  Projetos utilizando em prática os conceitos aprendidos na 3 semana. <br />
 </details><br /> <br />

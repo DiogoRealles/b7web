@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #f4f4f4;
+  margin: 20px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+.s-cards {
+  .container {
+    display: flex;
+
+    .left {
+      flex: 1;
+      max-width: 600px;
+      color: #f4f4f4;
+
+      h1 {
+        position: sticky;
+        top: 30px;
+      }
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      border-radius: 6px;
+      background: tomato;
+      position: sticky;
+
+      &:nth-child(1) {
+        background: #653df5;
+        top: 10px;
+      }
+
+      &:nth-child(2) {
+        top: 30px;
+        background: #3df562;
+      }
+
+      &:nth-child(3) {
+        top: 60px;
+        background: #026bce;
+      }
+
+      &:nth-child(4) {
+        top: 90px;
+        background: #c20102;
+      }
+    }
+  }
+}
+
+.parallax {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+    url('https://images.tech.co/wp-content/uploads/2023/11/21202640/AI-generated-landscape.jpg')
+      no-repeat center/cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 60px;
+    }
+  }
+}
