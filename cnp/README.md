@@ -54,3 +54,11 @@
   **Modal, Págination (estrutura e estilo), Menu Dropdown, Loading, Campo de busca estilizado:**
   Projetos utilizando em prática os conceitos aprendidos na 3 semana. <br />
 </details><br /> <br />
+
+<details>
+  <summary><h1>Semana 4: Lógica de Programação +4hr</h1></summary>
+  
+  **O que é lógica:** É uma forma de pensar para resolver um problema. <br />
+  
+  ... <br />
+</details><br /> <br />
