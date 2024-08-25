@@ -36,7 +36,7 @@
 <details>
   <summary><h1>Semana 2: Aprofundando +5hr</h1></summary>
   
-  **Ganhar dinheiro como iniciante:** Uma das maneiras para ganhar dinheiro iniciando na programação é fazendo sites estáticos para mepresas ou prestadores de serviço. Outra maneira é ser trainee/Jr. em uma agência de marketing. <br />
+  **Ganhar dinheiro como iniciante:** Uma das maneiras para ganhar dinheiro iniciando na programação é fazendo sites estáticos para empresas ou prestadores de serviço. Outra maneira é ser trainee/Jr. em uma agência de marketing. <br />
   
   **100 pra 1:** Sendo iniciante e freelancer a taxa de conversão de clientes é de 100 pra 1, ou seja, falar com 100 ou mais possíveis clientes e ser aceito por 1 cliente. <br />
   CSS3 possui features para trabalhar com backgrounds (color, image e gradients), alterar tipos de fontes, transições e animações e muito mais. <br />
