@@ -30,7 +30,7 @@
   Semelhante a pintura de uma residência. <br />
   CSS3 permite estilizar textos, imagens, alinhar e posicionar elementos, animações e transformações e muito mais. <br />
   **Portfólio:**
-  Projeto utilizando em prática os conceitos aprendidos na 1 semana. <br />
+  Projeto utilizando em prática os conceitos aprendidos na semana 1. <br />
 </details><br /> <br />
 
 <details>
@@ -40,7 +40,7 @@
   
   Uma das feature mais importantes do CSS3 moderno é CSS flexbox e CSS grid, a junção destas duas features mais criatividade é possível criar layouts incríveis e únicos. <br />
   **Agência XYZ:**
-  Projeto utilizando em prática os conceitos aprendidos na 2 semana. <br />
+  Projeto utilizando em prática os conceitos aprendidos na semana 2. <br />
 </details><br /> <br />
 
 <details>
@@ -52,7 +52,7 @@
   Uma das premissas do desenvolvimento é trazer boa experiência aos usuários. <br />
   
   **Modal, Págination (estrutura e estilo), Menu Dropdown, Loading, Campo de busca estilizado:**
-  Projetos utilizando em prática os conceitos aprendidos na 3 semana. <br />
+  Projetos utilizando em prática os conceitos aprendidos na semana 3. <br />
 </details><br /> <br />
 
 <details>
@@ -67,6 +67,15 @@
   <summary><h1>Semana 5: JavaScript Inicial +5hr</h1></summary>
   
   **O que é JavaScript:** É uma linguagem de programação de alto nível, ou seja, está mais próximo da linguegem humana. <br />
-  
-  ... <br />
+  Variáveis e tipos de dados, Arrays e Objetos. <br />
+  Operador de comparação e Lógicos. <br />
+  Condicionais e loops de repetição. <br />
+  Funções e Métodos de Arrays e de Objetos. <br />
+  Manipulação de DOM. <br />
+
+# Projetos
+
+**Calculadora**
+Projeto pratico com conceitos vistos na semana 5
+
 </details><br /> <br />

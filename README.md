@@ -34,7 +34,7 @@
 
 ## PROJETOS
 
-## Awax e Starbucks
+## Awax e Starbucks, B7Burguer
 
   <p>
     Projetos colocado em prática tudo que foi aprendido ao longo do curso. <br />
