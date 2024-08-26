@@ -177,7 +177,7 @@
 
 ## PROJETOS
 
-## Canil, CHat (websocket), OLX Clone (Back-end)
+## Canil, Chat (websocket), OLX Clone (Back-end)
 
 <p>
   Projeto real, práticando conceitos aprendidos ao longo do curso. <br />
