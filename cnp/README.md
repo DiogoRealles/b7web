@@ -76,6 +76,18 @@
 # Projetos
 
 **Calculadora**
-Projeto pratico com conceitos vistos na semana 5
+Projeto prático com conceitos vistos na semana 5
+
+</details><br /> <br />
+
+<details>
+  <summary><h1>Semana 6: JavaScript Intermediário +2hr</h1></summary>
+  
+  **Avançando no JS:** Nesta semana é visto JS mais avançado como: Loops e métodos de arrays e de objetos, DOM Avaçado manipulação de atributos e propriedades dos Elementos HTML5 e CSS3, Eventos de Mouse, Click, Scroll, Window, Teclado e mais. <br />
+
+# Projetos
+
+**Todo List**
+Projeto prático com conceitos vistos na semana 6
 
 </details><br /> <br />
