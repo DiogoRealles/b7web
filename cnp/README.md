@@ -62,3 +62,11 @@
   
   ... <br />
 </details><br /> <br />
+
+<details>
+  <summary><h1>Semana 5: JavaScript Inicial +5hr</h1></summary>
+  
+  **O que é JavaScript:** É uma linguagem de programação de alto nível, ou seja, está mais próximo da linguegem humana. <br />
+  
+  ... <br />
+</details><br /> <br />
