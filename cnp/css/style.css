@@ -1,0 +1,211 @@
+:root {
+  --light: #f4f4f4;
+  --dark: #101010;
+  --font-body: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.8rem;
+  background: var(--dark);
+  color: var(--light);
+  font-family: var(--font-body);
+  line-height: 150%;
+  font-weight: 400;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 18vw, 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.link {
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+section {
+  min-height: 100vh;
+  margin-left: 18vw;
+
+  .container {
+    header {
+      padding-block: 2.4rem;
+
+      h2 {
+        text-align: center;
+        font-size: 4rem;
+      }
+    }
+  }
+}
+
+body aside {
+  background: var(--dark);
+  border-right: 1px solid #d9d9dd;
+  display: block;
+  height: 100vh;
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    li {
+      border-bottom: 1px solid var(--light);
+      padding: 0rem;
+
+      a {
+        font-size: 2.4rem;
+        padding: 2.4rem;
+        display: inline-block;
+      }
+    }
+  }
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 18vw;
+  z-index: 999999;
+}
+
+#week2 {
+  .box1 {
+    width: 100%;
+    height: 100px;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+  }
+
+  .title1 {
+    font-family: 'Matemasie', sans-serif;
+    font-size: 6rem;
+    line-height: 150%;
+  }
+  .title2 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 6rem;
+    line-height: 150%;
+  }
+  .title3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    line-height: 150%;
+  }
+}
+
+#week3 {
+  .cards {
+    display: flex;
+    padding-block: 4rem;
+
+    .left {
+      flex: 1;
+      max-width: 600px;
+      color: #f4f4f4;
+
+      h1 {
+        position: sticky;
+        top: 30px;
+      }
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      border-radius: 6px;
+      background: tomato;
+      position: sticky;
+
+      &:nth-child(1) {
+        background: #653df5;
+        top: 10px;
+      }
+
+      &:nth-child(2) {
+        top: 30px;
+        background: #3df562;
+      }
+
+      &:nth-child(3) {
+        top: 60px;
+        background: #026bce;
+      }
+
+      &:nth-child(4) {
+        top: 90px;
+        background: #c20102;
+      }
+    }
+  }
+
+  .parallax {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+      url('https://images.tech.co/wp-content/uploads/2023/11/21202640/AI-generated-landscape.jpg')
+        no-repeat center/cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      h1 {
+        text-align: center;
+        font-size: 60px;
+      }
+    }
+  }
+}
