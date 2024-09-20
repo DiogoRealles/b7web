@@ -151,3 +151,10 @@
   É necessário iniciar arquivo de config do TypeScript <b>tsc --init</b>. <br />
 </details>
 <br />
+
+<details>
+  <summary>O que são Middlewares</summary>
+  São funções que ficam entre a requisição do usuário e a resposta da aplicação. Ou seja, é um intermediador que faz uma checagem e redireciona de acordo com as informações recebidas. <br />
+  Exemplo: Segurança de bar verifica se cliente tem mais de 18 anos para deixar entrar ou não. <br />
+</details>
+<br />

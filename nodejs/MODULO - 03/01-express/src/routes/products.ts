@@ -2,6 +2,13 @@ import express from 'express';
 
 const router = express.Router();
 
+router.post('/add', (req, res) => {
+  const { name, price } = req.body;
+
+  console.log(`O produto: ${name}, custa R$ ${price}`);
+  res.json({ message: `O produto: ${name}, custa R$ ${price}` });
+});
+
 router.get('/', (req, res) => {
   const products = [
     {
