@@ -1,0 +1,14 @@
+{
+  "name": "01-intro-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node --watch --no-warnings ./server.js"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "MIT",
+  "description": ""
+}
