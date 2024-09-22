@@ -114,6 +114,13 @@
 <br />
 
 <details>
+  <summary>Schema Validation (ZOD)</summary>
+  São módulos que ajudam a validar conjunto de tipos de dados. Que sigam uma estrutura pré-definida como: quantidade de caracteres, tipo de dado, etc. <br />
+  Exemplo: email que seja tipo string e um formato de email válido (email@email.com). <br />
+</details>
+<br />
+
+<details>
   <summary>Arquivos Estáticos</summary>
   Express possui objetos que permitem aplicar e disponibilizar arquivos estáticos (CSS, JS, IMGs, etc) na aplicação. <br />
 </details>
