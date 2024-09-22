@@ -99,11 +99,17 @@
 <br />
 
 <details>
-  <summary>O que são body, params e query</summary>
-  Os dados podem ser transportados de diferentes amneiras. <br />
+  <summary>Tipos de requisição (body, params e query)</summary>
+  Os dados podem ser transportados de diferentes maneiras. <br />
   <b>params:</b> São os parêmetros da requisição, são utilizados para solicitar alguma informação expecífica, com ID dos usuários ou produtos. <br />
-  <b>body:</b> São os dados do formulário, geralmente para inserir dados no DB. <br />
-  <b>query:</b> São os dados da URL. geralmente para filtrar informações.<br />
+  EX: <b>api.site.com/product/:id</b>. <br />
+  <b>body:</b> São os dados do formulário (POST), geralmente para inserir dados no DB. Geralmente são em formato JSON e precisam. <br />
+  Deve usar: <br />
+  <b>server.use(express.json());</b> <br />
+  <b>server.use(express.urlencoded({ extended: true }));</b> <br />
+  EX: <b>{name: "Notebook", price: 2999}</b> <br />
+  <b>query:</b> São os dados pela URL. geralmente para filtrar informações.<br />
+  EX: <b>api.site.com/products?category=smartpnone</b> <br />
 </details>
 <br />
 

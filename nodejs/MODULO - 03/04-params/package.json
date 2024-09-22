@@ -1,0 +1,21 @@
+{
+  "name": "02-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "node --import=tsx --env-file=.env --watch --no-warnings ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
