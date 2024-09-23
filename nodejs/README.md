@@ -117,6 +117,9 @@
   <summary>Schema Validation (ZOD)</summary>
   São módulos que ajudam a validar conjunto de tipos de dados. Que sigam uma estrutura pré-definida como: quantidade de caracteres, tipo de dado, etc. <br />
   Exemplo: email que seja tipo string e um formato de email válido (email@email.com). <br />
+  <b>.parse():</b> Faz teste de comparação, caso de erro encerra a aplicação, geralmente usado em try/catch. <br />
+  <b>.safeParse():</b> Faz teste de comparação e retorna um objeto com status boolean e os dados, caso de erro não encerra a aplicação, geralmente usado em if/else. <br />
+  ZOD permite fazer schema com inferência de tipo, ou seja, tipar enquanto faz a checagem. <br />
 </details>
 <br />
 

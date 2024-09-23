@@ -1,0 +1,20 @@
+{
+  "name": "01-zod-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "zod": "node --import=tsx --watch --no-warnings ./src/zod.ts"
+  },
+  "keywords": [],
+  "author": "Diogo Realles <diogorealles@hotmail.com> (https://diogorealles.github.io/)",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
