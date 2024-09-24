@@ -16,8 +16,7 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use('/', routes);
 server.use((req, res) => {
-  res.send('Página não encontrada!');
-  // res.status(404).render('404');
+  res.status(404).render('pages/404');
 });
 
 server.listen(PORT, () => {
